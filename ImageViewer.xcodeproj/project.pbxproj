@@ -13,6 +13,10 @@
 		46254CE2244E07690010C6C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46254CE0244E07690010C6C3 /* Main.storyboard */; };
 		46254CE4244E076B0010C6C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46254CE3244E076B0010C6C3 /* Assets.xcassets */; };
 		46254CE7244E076B0010C6C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46254CE5244E076B0010C6C3 /* LaunchScreen.storyboard */; };
+		46254CF2244E07F50010C6C3 /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 46254CEE244E07F40010C6C3 /* 2.JPG */; };
+		46254CF3244E07F50010C6C3 /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 46254CEF244E07F40010C6C3 /* 4.JPG */; };
+		46254CF4244E07F50010C6C3 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 46254CF0244E07F50010C6C3 /* 1.JPG */; };
+		46254CF5244E07F50010C6C3 /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 46254CF1244E07F50010C6C3 /* 3.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		46254CE3244E076B0010C6C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46254CE6244E076B0010C6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46254CE8244E076B0010C6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46254CEE244E07F40010C6C3 /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
+		46254CEF244E07F40010C6C3 /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
+		46254CF0244E07F50010C6C3 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		46254CF1244E07F50010C6C3 /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		46254CD9244E07690010C6C3 /* ImageViewer */ = {
 			isa = PBXGroup;
 			children = (
+				46254CF0244E07F50010C6C3 /* 1.JPG */,
+				46254CEE244E07F40010C6C3 /* 2.JPG */,
+				46254CF1244E07F50010C6C3 /* 3.JPG */,
+				46254CEF244E07F40010C6C3 /* 4.JPG */,
 				46254CDA244E07690010C6C3 /* AppDelegate.swift */,
 				46254CDC244E07690010C6C3 /* SceneDelegate.swift */,
 				46254CDE244E07690010C6C3 /* ViewController.swift */,
@@ -125,8 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46254CF4244E07F50010C6C3 /* 1.JPG in Resources */,
 				46254CE7244E076B0010C6C3 /* LaunchScreen.storyboard in Resources */,
+				46254CF2244E07F50010C6C3 /* 2.JPG in Resources */,
+				46254CF5244E07F50010C6C3 /* 3.JPG in Resources */,
 				46254CE4244E076B0010C6C3 /* Assets.xcassets in Resources */,
+				46254CF3244E07F50010C6C3 /* 4.JPG in Resources */,
 				46254CE2244E07690010C6C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tistory.joyful-records.ImageViewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tistory.joyful-records.ImageViewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
