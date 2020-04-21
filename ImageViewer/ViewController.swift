@@ -14,7 +14,10 @@ class ViewController: UIViewController {
     var img2: UIImage?
     var img3: UIImage?
     var img4: UIImage?
-    let maxNum = 4
+    var img5: UIImage?
+    var img6: UIImage?
+
+    //let maxNum = 6
     var currentImg = 1
 
     
@@ -30,6 +33,9 @@ class ViewController: UIViewController {
         img2 = UIImage(named: "2.JPG")
         img3 = UIImage(named: "3.JPG")
         img4 = UIImage(named: "4.JPG")
+        img5 = UIImage(named: "5.JPG")
+        img6 = UIImage(named: "6.JPG")
+
 
         imgPics.image = img1
     }
@@ -63,14 +69,26 @@ class ViewController: UIViewController {
                 txtPlace.text = "Pargue, Czecho"
                 txtDate.text = "2019.08"
             }
+            else if(currentImg==4)
+            {
+                imgPics.image = img4
+                txtPlace.text = "Paris, France"
+                txtDate.text = "2019.08"
+            }
+            else if(currentImg==5)
+            {
+                imgPics.image = img5
+                txtPlace.text = "Grindelwald, Swiss"
+                txtDate.text = "2019.08"
+            }
         }
         
     }
     @IBAction func btnNext(_ sender: UIButton) {
-        if(currentImg==4)
+        if(currentImg==6)
         {
-        imgPics.image = img4
-        txtPlace.text = "Paris, France"
+        imgPics.image = img6
+        txtPlace.text = "Prague, Czecho"
         txtDate.text = "2019.08"
         }
         else
@@ -89,11 +107,23 @@ class ViewController: UIViewController {
                 txtDate.text = "2019.08"
             }
             else if(currentImg==4)
-                   {
-                   imgPics.image = img4
-                   txtPlace.text = "Paris, France"
-                   txtDate.text = "2019.08"
-                   }
+            {
+                imgPics.image = img4
+                txtPlace.text = "Paris, France"
+                txtDate.text = "2019.08"
+            }
+            else if(currentImg==5)
+            {
+                imgPics.image = img5
+                txtPlace.text = "Grindelwald, Swiss"
+                txtDate.text = "2019.08"
+            }
+            else if(currentImg==6)
+            {
+            imgPics.image = img6
+            txtPlace.text = "Prague, Czecho"
+            txtDate.text = "2019.08"
+            }
         }
     }
 }
